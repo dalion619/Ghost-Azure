@@ -141,7 +141,7 @@
       "name": "[variables('appInsightsName')]",
       "type": "Microsoft.Insights/components",
       "location": "[parameters('siteLocation')]",
-      "apiVersion": "2014-04-01",
+      "apiVersion": "2016-08-01",
       "condition": "[parameters('Deploy App Insights')]",
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', parameters('siteName'))]"
